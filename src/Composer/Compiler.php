@@ -260,7 +260,7 @@ class Compiler
     private function getStub()
     {
         $stub = <<<'EOF'
-#!/usr/bin/env php
+#!/usr/bin/env php -c /usr/local/etc/php/7.3/php-swoole.ini
 <?php
 /*
  * This file is part of Composer.
